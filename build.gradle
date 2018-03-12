@@ -20,6 +20,10 @@ allprojects {
         google()
         jcenter()
     }
+
+    project.ext{
+        buildToolsVersion = "26.1.0"
+    }
 }
 
 task clean(type: Delete) {

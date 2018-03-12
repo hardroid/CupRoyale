@@ -1,7 +1,8 @@
-package cl.salemlabs.cuproyale;
+package cl.salemlabs.cuproyale.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import cl.salemlabs.cuproyale.R;
 
 public class LoginActivity extends AppCompatActivity {
 
