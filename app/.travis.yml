@@ -27,6 +27,6 @@ android:
     - google-gdk-license-.+
 
     script:
-      - ./gradlew checkstyle assemble testDebug
+      - ./gradlew assemble testDebug
 
 
