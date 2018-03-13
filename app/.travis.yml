@@ -1,4 +1,7 @@
 languaje: android
+sudo: required
+jdk: oraclejdk8
+
 android:
   components:
     - tools
@@ -22,5 +25,8 @@ android:
     - android-sdk-preview-license-.+
     - android-sdk-license-.+
     - google-gdk-license-.+
+
+    script:
+      - ./gradlew checkstyle assemble testDebug
 
 
