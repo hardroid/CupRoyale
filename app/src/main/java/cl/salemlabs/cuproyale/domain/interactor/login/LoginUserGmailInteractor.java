@@ -8,7 +8,7 @@ import cl.salemlabs.cuproyale.domain.repository.LoginRepository;
  * Created by hardroidlabs on 10-03-18.
  */
 
-public class LoginUserGmailInteractor implements BaseInteractor<String, User> {
+public class LoginUserGmailInteractor implements BaseInteractor<String> {
 
   LoginRepository loginRepository;
 
@@ -19,4 +19,6 @@ public class LoginUserGmailInteractor implements BaseInteractor<String, User> {
   @Override public void excecute(String parameter, Callback callback) {
     loginRepository.getUserOAuth(parameter);
   }
+
+
 }

@@ -5,5 +5,11 @@ package cl.salemlabs.cuproyale.data.repository;
  */
 
 public interface AutentificacionRepository {
-  String signInUser()
+  interface AutentificacionRepositoryCallback {
+    void onSuccess(String token);
+
+    void onError(Throwable t);
+  }
+
+  String signInUser(AutentificacionRepositoryCallback callback);
 }
