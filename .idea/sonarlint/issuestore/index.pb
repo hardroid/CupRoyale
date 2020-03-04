@@ -25,3 +25,5 @@ o
 ?app/src/main/java/cl/salemlabs/cuproyale/ui/LoginPresenter.java,8/4/84e64258727c5745bfdd79237c3f317a8e8e42fe
 Ž
 ^app/src/main/java/cl/salemlabs/cuproyale/domain/interactor/login/LoginUserGmailInteractor.java,b/8/b8bbc0b32cd0ae92314ac0da462745958112dac5
+;
+.travis.yml,d/e/dea01dd89a3b602828e630677fde5d77c06441c8
